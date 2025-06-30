@@ -6,9 +6,11 @@
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/30 09:40:52 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/06/30 11:44:10 by jdias-ju         ###   ########.ch       */
+/*   Updated: 2025/06/30 13:22:20 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// #include <stdio.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
@@ -28,19 +30,16 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	return (dest);
 }
 
-/*
-#include <stdio.h>
 
+
+/*
 int	main(void)
 {
-	char *src;
-	char dest[20];
-
-	src = "Piscine 42 test test";
-	printf("base: %s\n", src);
-	ft_strncpy(dest, src, 8);
-	printf("cpy: %s\n", dest);
-	ft_strncpy(dest, src, 8);
-	printf("ft_cpy: %s\n", dest);
+	char	dest[20];
+	char	src[] = "Piscine 42";
+	int	n = 5;
+	
+	ft_strncpy(dest, src, n);
+	printf("dest ok: %s\n", dest);
 }
 */
