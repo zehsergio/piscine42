@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
+/*   By: jdias-ju <jdias-ju@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/30 09:40:52 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/06/30 13:22:20 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/06/30 15:11:34 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/06/30 15:11:34 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 /*
 int	main(void)
 {
-	char	dest[20];
+	char	dest[100];
 	char	src[] = "Piscine 42";
 	int	n = 5;
 	
