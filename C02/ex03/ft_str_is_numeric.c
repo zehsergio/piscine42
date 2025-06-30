@@ -5,12 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/30 15:37:27 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/06/30 15:37:27 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/06/30 15:41:45 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/06/30 15:41:45 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {
@@ -28,6 +28,7 @@ int	ft_str_is_numeric(char *str)
 	return (1);
 }
 
+/*
 int main(void)
 {
 	char	*str1 = "0123456789";
@@ -35,3 +36,4 @@ int main(void)
 	printf("%s est numerique? %d\n", str1, ft_str_is_numeric(str1));
 	printf("%s est numerique? %d\n", str2, ft_str_is_numeric(str2));
 }
+*/
