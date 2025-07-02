@@ -6,7 +6,7 @@
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 23:16:27 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/07/03 00:12:06 by jdias-ju         ###   ########.ch       */
+/*   Updated: 2025/07/03 00:14:59 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,11 @@ char	*ft_strcat(char *dest, char *src)
 	int i = 0;
 	int j = 0;
 
-	// Avança até o final de dest
+	// Go to the end of dest, direct.
 	while (dest[i])
 		i++;
 
-	// Copia src para dest a partir do final
+	// Copy src to dest from the end.
 	while (src[j])
 	{
 		dest[i] = src[j];
