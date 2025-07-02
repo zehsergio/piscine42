@@ -6,7 +6,7 @@
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 22:52:41 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/07/02 23:13:10 by jdias-ju         ###   ########.ch       */
+/*   Updated: 2025/07/02 23:13:55 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	{
 		return (0);
 	}
-	while(*s1 == *s2 && *s1 && --n) // "--n" quer dizer que a cada vez que roda meu while, ele desencrementa 1, ate que chegue a 0, pois IF n == 0 retorna diretamente 0. 
+	while(*s1 == *s2 && *s1 && --n) // "--n" quer dizer que a cada vez que roda meu while, ele desencrementa 1 de "n", ate que chegue a 0, pois IF n == 0 retorna diretamente 0. 
 	{
 		s1++;
 		s2++;
