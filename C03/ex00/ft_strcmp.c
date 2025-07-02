@@ -1,39 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcpy.c                                        :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/06/30 09:02:32 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/07/01 20:42:05 by jdias-ju         ###   ########.ch       */
+/*   Created: 2025/07/02 22:30:53 by jdias-ju          #+#    #+#             */
+/*   Updated: 2025/07/02 22:49:48 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strcpy(char *dest, char *src)
-{
-	int	i;
+#include <stdio.h>
+#include <string.h>
 
-	i = 0;
-	while (src[i])
+int ft_strcmp(char *s1, char *s2)
+{
+	while(*s1 == *s2 && *s1)
 	{
-		dest[i] = src[i];
-		i++;
+		s1++;
+		s2++;
 	}
-	dest[i] = '\0';
-	return (dest);
+	return (*s1 - *s2);
 }
 
 /*
-#include <stdio.h>
-
 int	main(void)
 {
-	char	dest[] = "Dest";
-	char	src[] = "Source";
-
-	printf("dest before: %s\n", dest);
-	ft_strcpy(dest, src);
-	printf("dest after: %s\n", dest);
+	char *s1 = "ab";
+	char *s2 = "abc";
+	printf("%d\n", ft_strcmp(s1, s2));
+	printf("%d\n", strcmp(s1, s2));
 }
 */
