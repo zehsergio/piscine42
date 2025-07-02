@@ -6,7 +6,7 @@
 /*   By: jdias-ju <jdias-ju@student.42lausanne.ch>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 23:16:27 by jdias-ju          #+#    #+#             */
-/*   Updated: 2025/07/03 00:17:43 by jdias-ju         ###   ########.ch       */
+/*   Updated: 2025/07/03 00:19:00 by jdias-ju         ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strcat(char *dest, char *src)
 	while (dest[i])
 		i++;
 
-	// Copy src to dest, but begin from the end of dest \0.
+	// Copy src to dest, and go to the next array in both.
 	while (src[j])
 	{
 		dest[i] = src[j];
